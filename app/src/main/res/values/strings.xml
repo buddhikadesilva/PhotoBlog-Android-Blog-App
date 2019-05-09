@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PhotoBlog</string>
+    <string name="app_name">RecycleMedia</string>
     <string name="pass_hint">Password...</string>
     <string name="email_hint">Your Email...</string>
     <string name="login_logo_desc">Logo Login Page</string>
@@ -17,7 +17,7 @@
     <string name="setup_name_hint_text">Your Name ...</string>
     <string name="setup_btn_name_text">Save Account Settings</string>
     <string name="post_desc_hint">Add Description ...</string>
-    <string name="new_post_btn_hint">Post Blog</string>
+    <string name="new_post_btn_hint">Add Recycle Item</string>
     <string name="bottom_home_text">Home</string>
     <string name="bottom_notification_text">Notification</string>
     <string name="bottom_ac_text">Account</string>

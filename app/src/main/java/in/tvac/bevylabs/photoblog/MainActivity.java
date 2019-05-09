@@ -1,7 +1,6 @@
-package in.tvac.akshayejh.photoblog;
+package in.tvac.bevylabs.photoblog;
 
 import android.content.Intent;
-import android.nfc.Tag;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.design.widget.FloatingActionButton;

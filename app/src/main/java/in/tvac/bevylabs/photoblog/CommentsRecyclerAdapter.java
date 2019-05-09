@@ -1,4 +1,4 @@
-package in.tvac.akshayejh.photoblog;
+package in.tvac.bevylabs.photoblog;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

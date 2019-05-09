@@ -1,4 +1,4 @@
-package in.tvac.akshayejh.photoblog;
+package in.tvac.bevylabs.photoblog;
 
 import android.Manifest;
 import android.content.Intent;
@@ -37,7 +37,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 import id.zelory.compressor.Compressor;

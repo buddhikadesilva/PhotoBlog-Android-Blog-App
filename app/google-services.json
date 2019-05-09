@@ -1,52 +1,37 @@
 {
   "project_info": {
-    "project_number": "Removed",
-    "firebase_url": "Removed",
-    "project_id": "Removed",
-    "storage_bucket": "Removed"
+    "project_number": "893252530232",
+    "firebase_url": "https://recyclemedia-1ee56.firebaseio.com",
+    "project_id": "recyclemedia-1ee56",
+    "storage_bucket": "recyclemedia-1ee56.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:356235383112:android:f2197643bf0111e7",
+        "mobilesdk_app_id": "1:893252530232:android:8a651faa0f35e36d",
         "android_client_info": {
-          "package_name": "in.tvac.akshayejh.photoblog"
+          "package_name": "in.tvac.bevylabs.photoblog"
         }
       },
       "oauth_client": [
         {
-          "client_id": "356235383112-0i6lnn326ekaqrf936hpt3e89eh185kn.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "in.tvac.akshayejh.photoblog",
-            "certificate_hash": "ff3640f92c85c1f78eb33f751c93f2c03aa20d98"
-          }
-        },
-        {
-          "client_id": "356235383112-ch06cj0kou6qj21i3meinfjn8pvb8asi.apps.googleusercontent.com",
+          "client_id": "893252530232-q2abi0v63phn3rsmm4a7et1j3au64icc.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDOMBCVAorhB3vbHkglG6VDmrHSWqEQlP4"
+          "current_key": "AIzaSyBcU3d-ImWyrlQJAw8j3v2oMCd1k8JxlqI"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "356235383112-ch06cj0kou6qj21i3meinfjn8pvb8asi.apps.googleusercontent.com",
+              "client_id": "893252530232-q2abi0v63phn3rsmm4a7et1j3au64icc.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }

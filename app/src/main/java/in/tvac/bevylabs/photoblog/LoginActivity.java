@@ -1,4 +1,4 @@
-package in.tvac.akshayejh.photoblog;
+package in.tvac.bevylabs.photoblog;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;

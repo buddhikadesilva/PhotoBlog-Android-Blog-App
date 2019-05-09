@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="in.tvac.akshayejh.photoblog">
+    package="in.tvac.bevylabs.photoblog">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="in.tvac.bevylabs.photoblog.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,18 +23,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginActivity"
+            android:name="in.tvac.bevylabs.photoblog.LoginActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".SetupActivity" />
+        <activity android:name="in.tvac.bevylabs.photoblog.RegisterActivity" />
+        <activity android:name="in.tvac.bevylabs.photoblog.SetupActivity" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
         <activity
-            android:name=".NewPostActivity"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".CommentsActivity"
-            android:parentActivityName=".MainActivity"></activity>
+            android:name="in.tvac.bevylabs.photoblog.NewPostActivity"
+            android:parentActivityName="in.tvac.bevylabs.photoblog.MainActivity" />
+        <activity android:name="in.tvac.bevylabs.photoblog.CommentsActivity"
+            android:parentActivityName="in.tvac.bevylabs.photoblog.MainActivity"></activity>
     </application>
 
 </manifest>
