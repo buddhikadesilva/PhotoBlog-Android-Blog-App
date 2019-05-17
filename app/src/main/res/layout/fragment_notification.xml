@@ -13,4 +13,9 @@
         android:layout_height="match_parent"
         android:text="Notification Fragment" />
 
+    <WebView
+        android:id="@+id/webview_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </FrameLayout>
