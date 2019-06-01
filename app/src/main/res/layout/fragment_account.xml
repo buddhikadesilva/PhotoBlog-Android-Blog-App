@@ -11,6 +11,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Account Fragment" />
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="LeaderBoard Comming soon.."
+        android:textAllCaps="false"
+        android:textColor="#4CAF50"
+        android:textSize="28sp" />
 
 </FrameLayout>

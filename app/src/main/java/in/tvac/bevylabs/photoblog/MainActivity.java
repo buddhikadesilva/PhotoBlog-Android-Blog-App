@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         mainToolbar = (Toolbar) findViewById(R.id.main_toolbar);
         setSupportActionBar(mainToolbar);
 
-        getSupportActionBar().setTitle("Photo Blog");
+        getSupportActionBar().setTitle("Recycle Media");
 
         if(mAuth.getCurrentUser() != null) {
 
