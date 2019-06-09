@@ -6,8 +6,8 @@ android {
         applicationId "in.tvac.bevylabs.photoblog"
         minSdkVersion 21
         targetSdkVersion 27
-        versionCode 3
-        versionName "0.61"
+        versionCode 4
+        versionName "0.7"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
     }
