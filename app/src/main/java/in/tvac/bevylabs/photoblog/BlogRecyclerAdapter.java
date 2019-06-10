@@ -1,6 +1,8 @@
 package in.tvac.bevylabs.photoblog;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -181,9 +183,62 @@ public class BlogRecyclerAdapter extends RecyclerView.Adapter<BlogRecyclerAdapte
                 firebaseFirestore.collection("Posts").document(blogPostId).delete().addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
                     public void onSuccess(Void aVoid) {
-                        blog_list.remove(position);
-                        user_list.remove(position);
-                        Toast.makeText(context, "Post Successfully Deteted ", Toast.LENGTH_SHORT).show();
+
+                        AlertDialog.Builder altdial = new AlertDialog.Builder(context);
+                        altdial.setMessage("Are you sure to delete this post?").setCancelable(false)
+                                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        blog_list.remove(position);
+                                        user_list.remove(position);
+                                        Toast.makeText(context, "Post Successfully Deteted ", Toast.LENGTH_SHORT).show();
+                                    }
+                                })
+                                .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        dialog.cancel();
+                                    }
+                                });
+
+                        AlertDialog alert = altdial.create();
+                        alert.setTitle("Delete");
+                        alert.show();
+
+
+
+//
+//                        DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
+//                            @Override
+//                            public void onClick(DialogInterface dialog, int which) {
+//                                switch (which){
+//                                    case DialogInterface.BUTTON_POSITIVE:
+//                                        //Yes button clicked
+//
+//
+//                                        blog_list.remove(position);
+//                                        user_list.remove(position);
+//                                        Toast.makeText(context, "Post Successfully Deteted ", Toast.LENGTH_SHORT).show();
+//                                        break;
+//
+//                                    case DialogInterface.BUTTON_NEGATIVE:
+//                                        //No button clicked
+//                                        break;
+//                                }
+//                            }
+//
+//
+//
+//                        };
+//
+//                        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+//                        builder.setMessage("Are you sure to delete this post?").setPositiveButton("Yes", dialogClickListener)
+//                                .setNegativeButton("No", dialogClickListener).show();
+
+
+
+
+
 
                     }
                 });
